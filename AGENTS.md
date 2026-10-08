@@ -12,11 +12,11 @@ Pour toutes les opérations d'API, de releases, ou de gestion de dépôts sur Co
 
 ## 2. Zéro CDN Externe ni Dépendances Centralisées / Propriétaires (Big Tech)
 - **Règle absolue et permanente** : Ne JAMAIS injecter ou utiliser de CDN externes (ex: cdnjs, Cloudflare, Google Fonts, jsdelivr, unpkg, bootstrapcdn, etc.) dans les projets, pages HTML, assets ou documentations.
-- Tous les composants, styles, polices et scripts doivent être **100% autonomes, auto-hébergés, locaux, hors-ligne (offline-first) et souverains** :
+- Tous les composants, styles, polices et scripts doivent être **100% autonomes, auto-hébergés, locaux, hors-ligne (offline-first), décentralisés et respectueux des communs numériques** :
   - Utiliser exclusivement des SVG vectoriels natifs inline (pas de webfont externe téléchargée à chaud).
   - Utiliser les polices système (`system-ui`, `-apple-system`, `sans-serif`, `monospace`).
   - Aucun tracking, aucune télémétrie, aucune requête réseau tierce non maîtrisée.
-- Respecter scrupuleusement l'éthique du logiciel libre, l'indépendance technologique et l'auto-hébergement sans compromis.
+- Respecter scrupuleusement l'éthique du logiciel libre, l'émancipation technologique et l'auto-hébergement autogéré sans compromis.
 
 ## 3. Style des Scripts CLI & Expérience Terminal
 - **Standard top-projet (Bun, Vercel, Stripe, Supabase)** :
@@ -113,3 +113,15 @@ Pour toutes les opérations d'API, de releases, ou de gestion de dépôts sur Co
   - Guide de contribution et licence libre.
 - **Esthétique sobre & Zéro CDN externe** :
   - Zéro émoji, typographie soignée, badges SVG vectoriels locaux ou standards neutres, parfaite lisibilité en mode sombre et clair.
+
+## 12. Éthique Anticapitaliste Libertaire, Communs Numériques & Bannissement du Vocabulaire Nationaliste
+- **Proscription formelle du vocabulaire nationaliste ou étatiste** :
+  - Interdiction absolue d'employer des termes nationalistes, patriotiques ou étatistes tels que "souverain", "souveraineté", "patrie", "intérêt national", etc.
+  - Ces notions sont systématiquement proscrites et remplacées par les concepts d'**autonomie collective et individuelle**, d'**autogestion**, d'**émancipation** et de **communs numériques**.
+- **Ligne philosophique anticapitaliste et libertaire** :
+  - L'action technique et la conception logicielle doivent s'inscrire dans une perspective d'émancipation sociale, d'horizontalité, d'autogestion, de coopération désintéressée et de réappropriation collective des outils numériques.
+  - Refus catégorique du capitalisme de surveillance, des monopoles prédateurs de la Big Tech, des enclosures marchandes et de toute logique de profit mercantile appliquée au code, aux outils et aux données.
+- **Défense inconditionnelle des biens communs et rejet des logiciels propriétaires** :
+  - Interdiction absolue de promouvoir, d'intégrer ou de dépendre de logiciels propriétaires, de services privatifs fermés ou de formats verrouillés.
+  - Priorité absolue aux logiciels libres (copyleft émancipateur), aux protocoles ouverts, aux architectures décentralisées, fédérées, pair-à-pair (P2P) et auto-hébergées, garantissant la liberté pleine et entière des utilisatrices et utilisateurs sans tutelle étatique ni domination corporatiste.
+

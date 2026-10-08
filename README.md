@@ -1,11 +1,12 @@
 # Universal AGENTS.md
 
-> La spécification universelle et souveraine pour agents IA de développement (Antigravity, Claude Code, OpenAI Codex, Cursor, Copilot, Windsurf, Aider).
+> La spécification universelle, émancipatrice et anticapitaliste pour agents IA de développement (Antigravity, Claude Code, OpenAI Codex, Cursor, Copilot, Windsurf, Aider).
 
 <p align="center">
   <img src="https://img.shields.io/badge/Standard-AGENTS.md-2563eb?style=flat-square" alt="Standard AGENTS.md" />
   <img src="https://img.shields.io/badge/Compatibilit%C3%A9-Multi--Agent-10b981?style=flat-square" alt="Multi-Agent" />
-  <img src="https://img.shields.io/badge/CDN-0%25%20(Souverain)-059669?style=flat-square" alt="Souverain" />
+  <img src="https://img.shields.io/badge/CDN-0%25%20(Autonome)-059669?style=flat-square" alt="Offline-First" />
+  <img src="https://img.shields.io/badge/%C3%89thique-Anticapitaliste%20Libertaire-7c3aed?style=flat-square" alt="Anticapitaliste Libertaire" />
   <img src="https://img.shields.io/badge/%C3%89mojis-0%25%20(Pro)-6366f1?style=flat-square" alt="Zero Emoji" />
   <img src="https://img.shields.io/badge/S%C3%A9curit%C3%A9-OWASP%20Audit-dc2626?style=flat-square" alt="Security" />
   <img src="https://img.shields.io/badge/Licence-MIT-64748b?style=flat-square" alt="License" />
@@ -17,7 +18,7 @@
 
 En 2026, la multiplication des outils de code assisté par IA (Claude Code, OpenAI Codex, Cursor, Gemini Antigravity, GitHub Copilot, Windsurf, Aider) a créé une dispersion critique des configurations (`.cursorrules`, `CLAUDE.md`, `CODEX.md`, `.windsurfrules`, etc.).
 
-**Universal AGENTS.md** résout ce problème en établissant une **source unique de vérité** (*Single Source of Truth*). Ce référentiel impose aux modèles de langage une discipline d'ingénierie stricte de niveau **Staff Engineer**, élimine les régressions coûteuses en tokens et garantit un code souverain, sécurisé et exempt de dettes techniques.
+**Universal AGENTS.md** résout ce problème en établissant une **source unique de vérité** (*Single Source of Truth*). Ce référentiel impose aux modèles de langage une discipline d'ingénierie stricte de niveau **Staff Engineer**, élimine les régressions coûteuses en tokens et garantit un code libre, décentralisé, sécurisé, émancipateur et exempt de dettes techniques ou d'enclosures propriétaires.
 
 ---
 
@@ -60,13 +61,13 @@ Le script d'installation configure automatiquement chaque agent vers la spécifi
 
 ---
 
-## Les 12 Piliers de la Spécification
+## Les 13 Piliers de la Spécification
 
 ### 0. Réflexe d'Apprentissage & Capitalisation Immédiate
 * Déclenchement automatique : toute critique, correction ou préférence émise par l'utilisateur est immédiatement enregistrée dans le fichier d'instructions de manière proactive.
 * Zéro régression : aucune répétition des erreurs passées, zéro gaspillage de tokens ou de temps.
 
-### 1. Gestion des Forges Souveraines (Codeberg / Forgejo / Gitea)
+### 1. Gestion des Forges Libres & Fédérées (Codeberg / Forgejo / Gitea)
 * Utilisation directe des jetons d'accès disponibles dans l'environnement (`$CODEBERG_TOKEN`, `$FORGEJO_TOKEN`, `~/.env`). Interdiction formelle de redemander un jeton déjà configuré.
 
 ### 2. Zéro CDN Externe & Indépendance Technologique
@@ -112,6 +113,11 @@ Le script d'installation configure automatiquement chaque agent vers la spécifi
 ### 11. Présentation d'Élite des Projets
 * Obligation d'accompagner chaque projet d'un `README.md` remarquable : badges vectoriels, installation en une commande, tables de compatibilité, guides d'utilisation et licence libre.
 
+### 12. Éthique Anticapitaliste Libertaire, Communs Numériques & Bannissement du Vocabulaire Nationaliste
+* Proscription formelle du vocabulaire nationaliste ou étatiste : interdiction d'employer des termes tels que "souverain", "souveraineté", "patrie", "intérêt national". Remplacement systématique par l'autonomie collective et individuelle, l'autogestion, l'émancipation et les communs numériques.
+* Ligne philosophique anticapitaliste et libertaire : émancipation sociale, horizontalité, réappropriation collective des outils numériques, refus absolu du capitalisme de surveillance, de la logique marchande de profit et des monopoles de la Big Tech.
+* Défense inconditionnelle des biens communs et rejet des logiciels propriétaires : proscription des logiciels et services propriétaires fermés. Priorité absolue aux logiciels libres copyleft, aux protocoles ouverts et aux architectures décentralisées, fédérées, pair-à-pair (P2P) et auto-hébergées.
+
 ---
 
 ## Structure du Dépôt
@@ -129,7 +135,7 @@ universal-agents-rules/
 
 ## Contribution
 
-Les contributions améliorant la rigueur, la souveraineté ou la compatibilité avec de nouveaux agents IA sont les bienvenues via Pull Request / Merge Request.
+Les contributions améliorant la rigueur, l'autonomie des communs numériques ou la compatibilité avec de nouveaux agents IA sont les bienvenues via Pull Request / Merge Request.
 
 1. Forker le projet.
 2. Créer une branche dédiée (`git checkout -b feature/nouvelle-regle`).
