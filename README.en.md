@@ -40,7 +40,7 @@ In 2026, the multiplication of AI-assisted coding tools (Claude Code, OpenAI Cod
 Clone the repository and run the setup script:
 
 ```bash
-git clone https://github.com/AnARCHIS12/instuctions-ia.git
+git clone https://codeberg.org/ASR2026/instuctions-ia.git
 cd instuctions-ia
 chmod +x install.sh
 ./install.sh --all -y

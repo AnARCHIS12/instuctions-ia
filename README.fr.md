@@ -40,7 +40,7 @@ En 2026, la multiplication des outils de code assisté par IA (Claude Code, Open
 Clonez le dépôt et exécutez le script d'installation :
 
 ```bash
-git clone https://github.com/AnARCHIS12/instuctions-ia.git
+git clone https://codeberg.org/ASR2026/instuctions-ia.git
 cd instuctions-ia
 chmod +x install.sh
 ./install.sh --all -y

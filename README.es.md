@@ -40,7 +40,7 @@ En 2026, la proliferación de herramientas de código asistidas por IA (Claude C
 Clona el repositorio y ejecuta el script:
 
 ```bash
-git clone https://github.com/AnARCHIS12/instuctions-ia.git
+git clone https://codeberg.org/ASR2026/instuctions-ia.git
 cd instuctions-ia
 chmod +x install.sh
 ./install.sh --all -y
