@@ -89,8 +89,9 @@ El script configura automáticamente los destinos de cada entorno:
 * Estilo minimalista y riguroso (estilo Bun, Vercel, Stripe).
 * Prohibición total de emojis, símbolos Unicode sobrios (`✓`, `✕`, `›`, `•`) y verificación activa de puertos disponibles.
 
-### 4. Despliegue Estático para Pages
-* Archivo obligatorio `.nojekyll` para servir directamente los activos en GitHub, Codeberg y Forgejo Pages.
+### 4. Despliegue Estático para Pages (Estrictamente Condicional)
+* Prohibición de inclusión sistemática: jamás añadir un archivo `.nojekyll` a ciegas en proyectos sin sitio web o sin documentación publicada.
+* Ámbito estrictamente específico: incluir `.nojekyll` exclusivamente cuando exista un sitio estático, portal HTML dedicado, o petición expresa de despliegue en Pages (GitHub, Codeberg, Forgejo).
 
 ### 5. Pilas Tecnológicas Contemporáneas y Contenedores
 * Rechazo de versiones obsoletas o deprecadas (ej. PHP 8.3+, MariaDB 10.11+ LTS, Debian Bookworm).
@@ -150,7 +151,6 @@ El script configura automáticamente los destinos de cada entorno:
 universal-agents-rules/
 ├── AGENTS.md         # Archivo maestro de reglas universales
 ├── install.sh        # Script de despliegue multi-agente autónomo
-├── .nojekyll         # Compatibilidad para despliegues en Pages
 ├── LICENSE           # Licencia MIT
 ├── README.md         # Documentación principal en esperanto (Predeterminada)
 ├── README.fr.md      # Documentación en francés (Français)

@@ -89,8 +89,9 @@ La instalilo aŭtomate ligas ĉiun agenton al la unuigita specifo:
 * Minimumisma kaj sobra stilo (simila al Bun, Vercel, Stripe).
 * Absoluta forigo de bildosignoj (emojioj), sobriaj unikodaj simboloj (`✓`, `✕`, `›`, `•`) kaj aktiva kontrolo de liberaj retpordoj.
 
-### 4. Senmova Deplojo por Retpaĝoj (Pages)
-* Deviga `.nojekyll` dosiero ĉe la radiko por pura funkciado en GitHub, Codeberg kaj Forgejo Pages.
+### 4. Senmova Deplojo por Retpaĝoj (Pages, Strikte Kondiĉa)
+* Neniu blinda aldono: neniam aldoni la dosieron `.nojekyll` en projektoj, kiuj ne estas senmovaj retejoj aŭ dokumentaraj retpaĝoj.
+* Strikte celita uzo: inkluzivi `.nojekyll` nur kiam ekzistas senmova retejo, HTML-dokumentaro, aŭ laŭ eksplicita peto por deplojo en Pages (GitHub, Codeberg, Forgejo).
 
 ### 5. Nuntempaj Teknologioj kaj Ujoj (Containers)
 * Malakcepto de malaktualaj versioj (ekz. PHP 8.3+, MariaDB 10.11+ LTS, Debian Bookworm).
@@ -150,7 +151,6 @@ La instalilo aŭtomate ligas ĉiun agenton al la unuigita specifo:
 universal-agents-rules/
 ├── AGENTS.md         # Ĉefdosiero de universalaj reguloj
 ├── install.sh        # Aŭtonoma plur-agenta instala skripto
-├── .nojekyll         # Kongrueco kun statikaj retpaĝoj
 ├── LICENSE           # Permesilo MIT
 ├── README.md         # Ĉefa dokumentaro en Esperanto (Defaŭlta)
 ├── README.fr.md      # Dokumentaro en la franca (Français)

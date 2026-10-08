@@ -89,8 +89,9 @@ Le script d'installation configure automatiquement chaque agent vers la spécifi
 * Style épuré aligné sur les meilleurs outils contemporains (Bun, Vercel, Stripe).
 * Absence totale d'émojis, typographie sobre, scan actif des ports hôtes pour éviter tout conflit de ressource.
 
-### 4. Déploiement Statique pour Pages
-* Inclusion systématique du fichier `.nojekyll` pour garantir le service direct des assets sur GitHub Pages, Codeberg Pages et Forgejo Pages.
+### 4. Déploiement Statique pour Pages (Strictement Conditionnel)
+* Interdiction d'ajout systématique : ne jamais ajouter de fichier `.nojekyll` à l'aveugle dans des projets sans site web ou sans documentation publiée.
+* Usage strictement ciblé : réserver `.nojekyll` exclusivement aux projets comportant un site web statique, un portail HTML dédié, ou sur mandat explicite de publication Pages (GitHub, Codeberg, Forgejo).
 
 ### 5. Piles Technologiques Contemporaines
 * Rejet des versions obsolètes ou dépréciées (ex. PHP 8.3+, MariaDB 10.11+ LTS, Debian Bookworm).
@@ -150,7 +151,6 @@ Le script d'installation configure automatiquement chaque agent vers la spécifi
 universal-agents-rules/
 ├── AGENTS.md         # Fichier maître des règles universelles
 ├── install.sh        # Script de déploiement multi-agents autonome
-├── .nojekyll         # Compatibilité Pages statiques
 ├── LICENSE           # Licence MIT
 ├── README.md         # Documentation principale en espéranto (Par défaut)
 ├── README.fr.md      # Documentation en français (Français)

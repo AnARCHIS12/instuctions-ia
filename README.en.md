@@ -89,8 +89,9 @@ The installer script automatically links and synchronizes configuration targets:
 * Modern, understated typography inspired by Bun, Vercel, and Stripe.
 * Strict emoji ban, sober Unicode symbols (`✓`, `✕`, `›`, `•`), active host port availability scanning.
 
-### 4. Static Pages Deployment
-* Mandatory `.nojekyll` file at repository root and in `docs/` for clean GitHub / Codeberg / Forgejo Pages rendering.
+### 4. Static Pages Deployment (Strictly Conditional)
+* No blind injection: never add a `.nojekyll` file into projects that are not static websites or published documentation portals.
+* Strictly targeted scope: include `.nojekyll` only when a static website, dedicated HTML docs, or explicit Pages deployment (GitHub, Codeberg, Forgejo) is required.
 
 ### 5. Contemporary Tech Stacks & Containerization
 * Rejection of obsolete or deprecated versions (e.g. PHP 8.3+, MariaDB 10.11+ LTS, Debian Bookworm).
@@ -150,7 +151,6 @@ The installer script automatically links and synchronizes configuration targets:
 universal-agents-rules/
 ├── AGENTS.md         # Master universal rules specification
 ├── install.sh        # Autonomous multi-agent installer script
-├── .nojekyll         # Static Pages deployment compatibility
 ├── LICENSE           # MIT License
 ├── README.md         # Default main documentation in Esperanto
 ├── README.fr.md      # French documentation (Français)

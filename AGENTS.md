@@ -27,10 +27,11 @@ Pour toutes les opérations d'API, de releases, ou de gestion de dépôts sur Co
   - Tout script ou conteneur DOIT scanner et vérifier la disponibilité des ports hôtes avant de les allouer.
   - Si un port standard est déjà occupé par un service hôte, trouver et proposer automatiquement le port libre suivant pour éviter de bloquer la machine.
 
-## 4. Déploiement Statique & GitHub / Codeberg / Forgejo Pages
-- Pour toute documentation ou site statique destiné à être publié via Pages (GitHub Pages, Codeberg Pages, Forgejo Pages) :
-  - **Toujours inclure un fichier `.nojekyll`** (à la racine et dans le dossier `docs/`) pour désactiver le traitement Jekyll et servir directement le HTML/CSS/JS.
-  - Fournir le workflow CI/CD direct pour déployer le dossier de build ou `docs/`.
+## 4. Déploiement Statique & Pages (Strictement Conditionnel)
+- **Interdiction de création systématique ou aveugle** :
+  - Ne **JAMAIS** ajouter de fichier `.nojekyll` par défaut dans un projet qui n'est pas un site web statique ou qui n'a pas vocation à être publié via Pages.
+- **Périmètre d'application strictement ciblé** :
+  - Inclure un fichier `.nojekyll` (dans `docs/` ou à la racine du site) et configurer un workflow Pages **exclusivement** lorsqu'il existe un site statique, un portail de documentation HTML/CSS/JS dédié, ou sur mandat explicite pour un déploiement Pages (GitHub, Codeberg, Forgejo).
 
 ## 5. Versions des Piles Techniques & Conteneurisation
 - Ne jamais utiliser de versions obsolètes ou dépréciées (ex. PHP 7.x, 8.0, 8.2 en fin de cycle) ; toujours cibler les versions **stables actives contemporaines** (PHP 8.3+, MariaDB 10.11+ LTS, Debian Bookworm).
