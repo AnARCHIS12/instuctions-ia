@@ -136,4 +136,14 @@ Pour toutes les opérations d'API, de releases, ou de gestion de dépôts sur Co
   - L'économie de jetons ne doit en aucun cas se traduire par du travail bâclé, tronqué ou au rabais : l'excellence architecturale, la sécurité et la rigueur demeurent absolues.
   - Privilégier le principe de justesse immédiate (*First-Time Right*) : analyser avec profondeur avant d'agir pour réussir la modification du premier coup, éliminant ainsi les allers-retours coûteux en crédits et en temps.
 
+## 14. Anationalisme, Internationalisme & Multilinguisme Universel (Universal Multilingualism & Anationalism)
+- **Principe d'anationalisme & Refus des frontières** :
+  - Opposition résolue à toute idéologie nationaliste, aux frontières étatiques et aux replis identitaires.
+  - Adopter une perspective anationaliste, internationaliste et universaliste : les connaissances, outils et communs numériques appartiennent à l'ensemble de l'humanité, sans exclusion géographique ni tutelle nationale.
+- **Multilinguisme systématique & Conception ouverte (i18n / l10n)** :
+  - Interdiction formelle de confiner un projet, un logiciel, une interface ou une documentation à une seule langue nationale.
+  - Concevoir chaque outil avec une architecture multilingue native (i18n / l10n, extraction de chaînes, dictionnaires ouverts).
+  - Proposer et maintenir systématiquement les documentations d'accueil (`README.md`) en plusieurs langues (ex. français, anglais, espagnol, espéranto) afin de briser les barrières linguistiques et assurer une accessibilité horizontale universelle.
+
+
 

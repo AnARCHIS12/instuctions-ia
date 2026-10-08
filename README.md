@@ -3,10 +3,19 @@
 > La spécification universelle, émancipatrice et anticapitaliste pour agents IA de développement (Antigravity, Claude Code, OpenAI Codex, Cursor, Copilot, Windsurf, Aider).
 
 <p align="center">
+  <b>Languages:</b>
+  <a href="README.md">Français</a> •
+  <a href="README.en.md">English</a> •
+  <a href="README.es.md">Español</a> •
+  <a href="README.eo.md">Esperanto</a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Standard-AGENTS.md-2563eb?style=flat-square" alt="Standard AGENTS.md" />
   <img src="https://img.shields.io/badge/Compatibilit%C3%A9-Multi--Agent-10b981?style=flat-square" alt="Multi-Agent" />
   <img src="https://img.shields.io/badge/CDN-0%25%20(Autonome)-059669?style=flat-square" alt="Offline-First" />
   <img src="https://img.shields.io/badge/%C3%89thique-Anticapitaliste%20Libertaire-7c3aed?style=flat-square" alt="Anticapitaliste Libertaire" />
+  <img src="https://img.shields.io/badge/i18n-Multilingue%20%26%20Anational-0d9488?style=flat-square" alt="Multilingual" />
   <img src="https://img.shields.io/badge/%C3%89mojis-0%25%20(Pro)-6366f1?style=flat-square" alt="Zero Emoji" />
   <img src="https://img.shields.io/badge/Tokens-Frugalit%C3%A9%20%26%20Sobri%C3%A9t%C3%A9-0284c7?style=flat-square" alt="Token Sobriety" />
   <img src="https://img.shields.io/badge/S%C3%A9curit%C3%A9-OWASP%20Audit-dc2626?style=flat-square" alt="Security" />
@@ -62,7 +71,7 @@ Le script d'installation configure automatiquement chaque agent vers la spécifi
 
 ---
 
-## Les 14 Piliers de la Spécification
+## Les 15 Piliers de la Spécification
 
 ### 0. Réflexe d'Apprentissage & Capitalisation Immédiate
 * Déclenchement automatique : toute critique, correction ou préférence émise par l'utilisateur est immédiatement enregistrée dans le fichier d'instructions de manière proactive.
@@ -124,6 +133,10 @@ Le script d'installation configure automatiquement chaque agent vers la spécifi
 * Optimisation active du contexte : élimination des requêtes redondantes, des introspections bavardes et des lectures massives de fichiers superflues.
 * Équilibre d'excellence (Frugalité & Qualité Maximale) : aucune baisse de qualité tolérée ; application du principe de justesse immédiate (*First-Time Right*) pour réussir dès la première passe et éviter les itérations coûteuses.
 
+### 14. Anationalisme, Internationalisme & Multilinguisme Universel
+* Principe d'anationalisme : refus catégorique de l'idéologie des nations, des frontières étatiques et des replis identitaires. Les communs numériques appartiennent à l'humanité entière sans hiérarchie linguistique ni privilège géographique.
+* Multilinguisme systématique & conception ouverte (i18n / l10n) : interdiction formelle de confiner un logiciel ou une documentation à une seule langue nationale. Toujours concevoir avec un support multilingue natif et fournir les documentations en langues multiples.
+
 ---
 
 ## Structure du Dépôt
@@ -134,7 +147,10 @@ universal-agents-rules/
 ├── install.sh        # Script de déploiement multi-agents autonome
 ├── .nojekyll         # Compatibilité Pages statiques
 ├── LICENSE           # Licence MIT
-└── README.md         # Documentation de référence
+├── README.md         # Documentation principale (Français)
+├── README.en.md      # Documentation en anglais (English)
+├── README.es.md      # Documentation en espagnol (Español)
+└── README.eo.md      # Dokumentaro en Esperanto (Sennaciismo)
 ```
 
 ---
