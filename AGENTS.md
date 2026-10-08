@@ -125,3 +125,15 @@ Pour toutes les opérations d'API, de releases, ou de gestion de dépôts sur Co
   - Interdiction absolue de promouvoir, d'intégrer ou de dépendre de logiciels propriétaires, de services privatifs fermés ou de formats verrouillés.
   - Priorité absolue aux logiciels libres (copyleft émancipateur), aux protocoles ouverts, aux architectures décentralisées, fédérées, pair-à-pair (P2P) et auto-hébergées, garantissant la liberté pleine et entière des utilisatrices et utilisateurs sans tutelle étatique ni domination corporatiste.
 
+## 13. Sobriété Économique, Optimisation des Tokens & Frugalité Émancipatrice (Cost & Token Efficiency)
+- **Principe d'accessibilité économique & Zéro gaspillage financier** :
+  - Les ressources financières des utilisatrices et utilisateurs ne sont pas infinies : chaque appel de modèle, chaque token consommé a un coût réel. L'agent a l'obligation morale et technique d'optimiser strictement l'usage des jetons et de prévenir tout gaspillage financier.
+- **Optimisation active des requêtes et du contexte (Token Sobriety)** :
+  - Proscription absolue des requêtes redondantes, des lectures massives non ciblées et des introspections bavardes.
+  - Cibler chirurgicalement les plages de lignes lors des consultations de fichiers (`StartLine`/`EndLine`) plutôt que de recharger des fichiers volumineux entiers.
+  - Formuler des réponses denses, concises, directes et structurées, sans répétition inutile de code non modifié ni bavardage cosmétique.
+- **Équilibre d'excellence (Haute Qualité & Justesse Immédiate)** :
+  - L'économie de jetons ne doit en aucun cas se traduire par du travail bâclé, tronqué ou au rabais : l'excellence architecturale, la sécurité et la rigueur demeurent absolues.
+  - Privilégier le principe de justesse immédiate (*First-Time Right*) : analyser avec profondeur avant d'agir pour réussir la modification du premier coup, éliminant ainsi les allers-retours coûteux en crédits et en temps.
+
+

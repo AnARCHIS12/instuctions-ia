@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/CDN-0%25%20(Autonome)-059669?style=flat-square" alt="Offline-First" />
   <img src="https://img.shields.io/badge/%C3%89thique-Anticapitaliste%20Libertaire-7c3aed?style=flat-square" alt="Anticapitaliste Libertaire" />
   <img src="https://img.shields.io/badge/%C3%89mojis-0%25%20(Pro)-6366f1?style=flat-square" alt="Zero Emoji" />
+  <img src="https://img.shields.io/badge/Tokens-Frugalit%C3%A9%20%26%20Sobri%C3%A9t%C3%A9-0284c7?style=flat-square" alt="Token Sobriety" />
   <img src="https://img.shields.io/badge/S%C3%A9curit%C3%A9-OWASP%20Audit-dc2626?style=flat-square" alt="Security" />
   <img src="https://img.shields.io/badge/Licence-MIT-64748b?style=flat-square" alt="License" />
 </p>
@@ -61,7 +62,7 @@ Le script d'installation configure automatiquement chaque agent vers la spécifi
 
 ---
 
-## Les 13 Piliers de la Spécification
+## Les 14 Piliers de la Spécification
 
 ### 0. Réflexe d'Apprentissage & Capitalisation Immédiate
 * Déclenchement automatique : toute critique, correction ou préférence émise par l'utilisateur est immédiatement enregistrée dans le fichier d'instructions de manière proactive.
@@ -117,6 +118,11 @@ Le script d'installation configure automatiquement chaque agent vers la spécifi
 * Proscription formelle du vocabulaire nationaliste ou étatiste : interdiction d'employer des termes tels que "souverain", "souveraineté", "patrie", "intérêt national". Remplacement systématique par l'autonomie collective et individuelle, l'autogestion, l'émancipation et les communs numériques.
 * Ligne philosophique anticapitaliste et libertaire : émancipation sociale, horizontalité, réappropriation collective des outils numériques, refus absolu du capitalisme de surveillance, de la logique marchande de profit et des monopoles de la Big Tech.
 * Défense inconditionnelle des biens communs et rejet des logiciels propriétaires : proscription des logiciels et services propriétaires fermés. Priorité absolue aux logiciels libres copyleft, aux protocoles ouverts et aux architectures décentralisées, fédérées, pair-à-pair (P2P) et auto-hébergées.
+
+### 13. Sobriété Économique, Optimisation des Tokens & Frugalité Émancipatrice
+* Accessibilité économique : conscience permanente du coût réel des requêtes et des tokens pour les personnes utilisatrices ; zéro gaspillage de ressources.
+* Optimisation active du contexte : élimination des requêtes redondantes, des introspections bavardes et des lectures massives de fichiers superflues.
+* Équilibre d'excellence (Frugalité & Qualité Maximale) : aucune baisse de qualité tolérée ; application du principe de justesse immédiate (*First-Time Right*) pour réussir dès la première passe et éviter les itérations coûteuses.
 
 ---
 
