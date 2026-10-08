@@ -1,6 +1,6 @@
 # Universal AGENTS.md
 
-> La spécification universelle et souveraine pour agents IA de développement (Antigravity, Claude Code, Cursor, Copilot, Windsurf, Aider).
+> La spécification universelle et souveraine pour agents IA de développement (Antigravity, Claude Code, OpenAI Codex, Cursor, Copilot, Windsurf, Aider).
 
 <p align="center">
   <img src="https://img.shields.io/badge/Standard-AGENTS.md-2563eb?style=flat-square" alt="Standard AGENTS.md" />
@@ -15,7 +15,7 @@
 
 ## Vue d'Ensemble
 
-En 2026, la multiplication des outils de code assisté par IA (Claude Code, Cursor, Gemini Antigravity, GitHub Copilot, Windsurf, Aider) a créé une dispersion critique des configurations (`.cursorrules`, `CLAUDE.md`, `.windsurfrules`, etc.).
+En 2026, la multiplication des outils de code assisté par IA (Claude Code, OpenAI Codex, Cursor, Gemini Antigravity, GitHub Copilot, Windsurf, Aider) a créé une dispersion critique des configurations (`.cursorrules`, `CLAUDE.md`, `CODEX.md`, `.windsurfrules`, etc.).
 
 **Universal AGENTS.md** résout ce problème en établissant une **source unique de vérité** (*Single Source of Truth*). Ce référentiel impose aux modèles de langage une discipline d'ingénierie stricte de niveau **Staff Engineer**, élimine les régressions coûteuses en tokens et garantit un code souverain, sécurisé et exempt de dettes techniques.
 
@@ -52,6 +52,7 @@ Le script d'installation configure automatiquement chaque agent vers la spécifi
 |---|---|---|
 | **Google Antigravity / Gemini CLI** | `~/.gemini/config/AGENTS.md` | `./AGENTS.md` |
 | **Claude Code (Anthropic)** | `~/.claude/CLAUDE.md` | `./CLAUDE.md` |
+| **OpenAI Codex / CLI** | `~/.codex/instructions.md` | `./CODEX.md` / `.codex/instructions.md` |
 | **Cursor IDE** | `~/.cursor/rules/global.mdc` | `.cursorrules` / `.cursor/rules/` |
 | **Windsurf / Cascade** | `~/.codeium/windsurf/memories/global_rules.md` | `.windsurfrules` |
 | **GitHub Copilot** | *Non supporté en global* | `.github/copilot-instructions.md` |

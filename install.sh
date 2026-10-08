@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ==============================================================================
 # Universal AGENTS.md Installer
-# Multi-Agent Configuration Orchestrator (Antigravity, Claude, Cursor, Copilot)
+# Multi-Agent Configuration Orchestrator (Antigravity, Claude, Codex, Cursor, Copilot)
 # ==============================================================================
 
 set -eo pipefail
@@ -117,7 +117,10 @@ if [ "$MODE" = "global" ] || [ "$MODE" = "all" ]; then
   # 4. Windsurf / Cascade
   install_target "${HOME}/.codeium/windsurf/memories/global_rules.md" "Windsurf Cascade Global"
 
-  # 5. Aider
+  # 5. OpenAI Codex / CLI
+  install_target "${HOME}/.codex/instructions.md" "OpenAI Codex Global"
+
+  # 6. Aider
   install_target "${HOME}/.aider.conventions.md" "Aider Global Conventions"
 
   echo ""
@@ -133,6 +136,10 @@ if [ "$MODE" = "local" ] || [ "$MODE" = "all" ]; then
 
   # Root CLAUDE.md (thin link or copy)
   install_target "${CWD}/CLAUDE.md" "Workspace CLAUDE.md"
+
+  # Root CODEX.md & .codex/instructions.md (OpenAI Codex)
+  install_target "${CWD}/CODEX.md" "Workspace CODEX.md"
+  install_target "${CWD}/.codex/instructions.md" "Workspace .codex/instructions.md"
 
   # GitHub Copilot instructions
   install_target "${CWD}/.github/copilot-instructions.md" "GitHub Copilot Instructions"
