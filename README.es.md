@@ -2,13 +2,11 @@
 
 > Especificación universal, emancipadora y anticapitalista para agentes de desarrollo con IA (Antigravity, Claude Code, OpenAI Codex, Cursor, Copilot, Windsurf, Aider).
 
-<p align="center">
-  <b>Lingvoj / Languages:</b>
-  <a href="README.md">Esperanto</a> •
-  <a href="README.fr.md">Français</a> •
-  <a href="README.en.md">English</a> •
-  <a href="README.es.md">Español</a>
-</p>
+<div align="center">
+
+**Lingvoj / Languages:** [Esperanto](README.md) • [Français](README.fr.md) • [English](README.en.md) • [Español](README.es.md)
+
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Est%C3%A1ndar-AGENTS.md-2563eb?style=flat-square" alt="Estándar AGENTS.md" />
