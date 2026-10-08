@@ -143,7 +143,17 @@ Pour toutes les opérations d'API, de releases, ou de gestion de dépôts sur Co
 - **Multilinguisme systématique & Conception ouverte (i18n / l10n)** :
   - Interdiction formelle de confiner un projet, un logiciel, une interface ou une documentation à une seule langue nationale.
   - Concevoir chaque outil avec une architecture multilingue native (i18n / l10n, extraction de chaînes, dictionnaires ouverts).
-  - Proposer et maintenir systématiquement les documentations d'accueil (`README.md`) en plusieurs langues (ex. français, anglais, espagnol, espéranto) afin de briser les barrières linguistiques et assurer une accessibilité horizontale universelle.
+  - Proposer et maintenir systématiquement les documentations en plusieurs langues (espéranto, français, anglais, espagnol) afin de briser les barrières linguistiques et assurer une accessibilité horizontale universelle.
+  - **Le README d'accueil par défaut (`README.md`) doit être systématiquement rédigé en espéranto** (langue internationale commune et émancipatrice de l'anationalisme), et offrir en en-tête des liens directs vers ses versions traduites (`README.fr.md`, `README.en.md`, `README.es.md`).
+
+## 15. Langage Inclusif, Égalité Réelle & Respect Universel (Inclusive Language & Real Equality)
+- **Promotion systématique du vocabulaire inclusif** :
+  - Employer rigoureusement un vocabulaire inclusif, non sexiste et respectueux de toutes les identités dans les documentations, messages d'erreur, commentaires de code, interfaces et interactions.
+  - Privilégier les formulations épicènes, neutres ou les doublets complets (ex. "utilisatrices et utilisateurs", "développeuses et développeurs", "personnes contributrices") afin d'éviter l'invisibilisation causée par le masculin générique.
+- **Accessibilité et bienveillance émancipatrice** :
+  - Proscrire toute terminologie discriminatoire, capacitiste, excluante ou paternaliste.
+  - Veiller à ce que les outils numériques, messages d'interface et documentations soient accueillants, respectueux et accessibles à toutes et tous, sans distinction de genre, d'origine ou de condition sociale.
+
 
 
 

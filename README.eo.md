@@ -3,11 +3,11 @@
 > Universala, emancipa kaj kontraŭkapitalisma specifo por artefarit-intelektaj programad-agentoj (Antigravity, Claude Code, OpenAI Codex, Cursor, Copilot, Windsurf, Aider).
 
 <p align="center">
-  <b>Languages:</b>
-  <a href="README.md">Français</a> •
+  <b>Lingvoj / Languages:</b>
+  <a href="README.md">Esperanto</a> •
+  <a href="README.fr.md">Français</a> •
   <a href="README.en.md">English</a> •
-  <a href="README.es.md">Español</a> •
-  <a href="README.eo.md">Esperanto</a>
+  <a href="README.es.md">Español</a>
 </p>
 
 <p align="center">
@@ -16,6 +16,7 @@
   <img src="https://img.shields.io/badge/CDN-0%25%20(Aŭtonoma)-059669?style=flat-square" alt="Sen-CDN" />
   <img src="https://img.shields.io/badge/Etiko-Liberecana%20Kontraŭkapitalismo-7c3aed?style=flat-square" alt="Liberecana" />
   <img src="https://img.shields.io/badge/i18n-Plurlingva%20kaj%20Sennacia-0d9488?style=flat-square" alt="Sennaciismo" />
+  <img src="https://img.shields.io/badge/Lingvo-Inkluziva%20kaj%20Egaleca-ec4899?style=flat-square" alt="Inkluziva Lingvo" />
   <img src="https://img.shields.io/badge/Emoji-0%25%20(Profesia)-6366f1?style=flat-square" alt="Sen-Emoji" />
   <img src="https://img.shields.io/badge/Tokenoj-Ŝparemo%20kaj%20Frugaleco-0284c7?style=flat-square" alt="Token-Ŝparo" />
   <img src="https://img.shields.io/badge/Sekureco-OWASP%20Kontrolo-dc2626?style=flat-square" alt="Sekureco" />
@@ -71,7 +72,7 @@ La instalilo aŭtomate ligas ĉiun agenton al la unuigita specifo:
 
 ---
 
-## La 15 Kolonoj de la Specifo
+## La 16 Kolonoj de la Specifo
 
 ### 0. Proaktiva Lernado kaj Tuja Kapitaligo
 * Aŭtomata ekigo: ĉiu riproĉo, korekto aŭ prefero de la uzanto estas tuj registrita en la instrukcian memoron sen atendi permeson.
@@ -137,6 +138,10 @@ La instalilo aŭtomate ligas ĉiun agenton al la unuigita specifo:
 * Sennaciisma principo: kategorio rifuzo de naciisma ideologio, ŝtataj limoj kaj identecaj baroj. La ciferecaj komunaĵoj kaj teknikaj scioj apartenas al la tuta homaro sen lingvaj hierarkioj nek geografiaj privilegioj.
 * Sistema plurlingveco kaj malferma fasonado (i18n / l10n): malpermesite enfermi programaron aŭ dokumentaron en nur unu nacia lingvo. Ĉiam krei ilojn kun denaska plurlingva subteno kaj provizi dokumentarojn en pluraj lingvoj.
 
+### 15. Inkluziva Lingvo, Reala Egaleco kaj Universala Respekto
+* Sistema antaŭenigo de inkluziva lingvo: rigore uzi nenseksisman kaj respekteman lingvaĵon por eviti nevidebligon kaŭzatan de senkritika vira formo.
+* Emancipa alirebleco kaj bonvolemo: absoluta malpermeso de diskriminacia, kapablisma aŭ ekskluda vortotrezoro. Certigi, ke ĉiuj iloj, fasadoj, dokumentoj kaj erarmesaĝoj traktas ĉiujn homojn egalece kaj digne.
+
 ---
 
 ## Deponeja Strukturo
@@ -147,10 +152,10 @@ universal-agents-rules/
 ├── install.sh        # Aŭtonoma plur-agenta instala skripto
 ├── .nojekyll         # Kongrueco kun statikaj retpaĝoj
 ├── LICENSE           # Permesilo MIT
-├── README.md         # Ĉefa dokumentaro (Franca)
-├── README.en.md      # Anglalingva dokumentaro (English)
-├── README.es.md      # Hispanlingva dokumentaro (Español)
-└── README.eo.md      # Dokumentaro en Esperanto (Sennaciismo)
+├── README.md         # Ĉefa dokumentaro en Esperanto (Defaŭlta)
+├── README.fr.md      # Dokumentaro en la franca (Français)
+├── README.en.md      # Dokumentaro en la angla (English)
+└── README.es.md      # Dokumentaro en la hispana (Español)
 ```
 
 ---

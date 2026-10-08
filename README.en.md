@@ -3,11 +3,11 @@
 > Universal, emancipatory, and anti-capitalist specification for AI developer agents (Antigravity, Claude Code, OpenAI Codex, Cursor, Copilot, Windsurf, Aider).
 
 <p align="center">
-  <b>Languages:</b>
-  <a href="README.md">Français</a> •
+  <b>Lingvoj / Languages:</b>
+  <a href="README.md">Esperanto</a> •
+  <a href="README.fr.md">Français</a> •
   <a href="README.en.md">English</a> •
-  <a href="README.es.md">Español</a> •
-  <a href="README.eo.md">Esperanto</a>
+  <a href="README.es.md">Español</a>
 </p>
 
 <p align="center">
@@ -16,6 +16,7 @@
   <img src="https://img.shields.io/badge/CDN-0%25%20(Autonomous)-059669?style=flat-square" alt="Offline-First" />
   <img src="https://img.shields.io/badge/Ethics-Libertarian%20Anti--Capitalist-7c3aed?style=flat-square" alt="Libertarian Anti-Capitalist" />
   <img src="https://img.shields.io/badge/i18n-Multilingual%20%26%20Anational-0d9488?style=flat-square" alt="Multilingual" />
+  <img src="https://img.shields.io/badge/Language-Inclusive%20%26%20Egalitarian-ec4899?style=flat-square" alt="Inclusive Language" />
   <img src="https://img.shields.io/badge/Emojis-0%25%20(Pro)-6366f1?style=flat-square" alt="Zero Emoji" />
   <img src="https://img.shields.io/badge/Tokens-Frugality%20%26%20Sobriety-0284c7?style=flat-square" alt="Token Sobriety" />
   <img src="https://img.shields.io/badge/Security-OWASP%20Audit-dc2626?style=flat-square" alt="Security" />
@@ -71,7 +72,7 @@ The installer script automatically links and synchronizes configuration targets:
 
 ---
 
-## The 15 Pillars of the Specification
+## The 16 Pillars of the Specification
 
 ### 0. Proactive Learning & Immediate Capitalization
 * Automatic trigger: any user reproach, correction, or preference is immediately recorded into the agent instruction memory without waiting for permission.
@@ -137,6 +138,10 @@ The installer script automatically links and synchronizes configuration targets:
 * Anationalist principle: rejection of nationalist ideology, state borders, and identitarian isolationism. Technical knowledge and digital commons belong to humanity without geographical privilege or linguistic hierarchy.
 * Systematic multilingualism & open design (i18n / l10n): never restrict a project or documentation to a single national language. Always architect tools with native multilingual support and maintain documentation across multiple languages.
 
+### 15. Inclusive Language, Real Equality & Universal Respect
+* Systematic promotion of inclusive language: rigorously employ non-sexist, respectful phrasing (complete doublets, epicene terms, neutral phrasing) to eliminate gender erasure caused by generic masculine conventions.
+* Emancipatory accessibility and respect: strict prohibition against discriminatory, ableist, or exclusionary terminology. Ensure all tools, user interfaces, documentation, and error messages treat every person equally with dignity.
+
 ---
 
 ## Repository Structure
@@ -147,10 +152,10 @@ universal-agents-rules/
 ├── install.sh        # Autonomous multi-agent installer script
 ├── .nojekyll         # Static Pages deployment compatibility
 ├── LICENSE           # MIT License
-├── README.md         # Main documentation (Français)
+├── README.md         # Default main documentation in Esperanto
+├── README.fr.md      # French documentation (Français)
 ├── README.en.md      # English documentation
-├── README.es.md      # Spanish documentation (Español)
-└── README.eo.md      # Esperanto documentation (Sennaciismo)
+└── README.es.md      # Spanish documentation (Español)
 ```
 
 ---

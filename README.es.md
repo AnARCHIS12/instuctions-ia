@@ -3,11 +3,11 @@
 > Especificación universal, emancipadora y anticapitalista para agentes de desarrollo con IA (Antigravity, Claude Code, OpenAI Codex, Cursor, Copilot, Windsurf, Aider).
 
 <p align="center">
-  <b>Languages:</b>
-  <a href="README.md">Français</a> •
+  <b>Lingvoj / Languages:</b>
+  <a href="README.md">Esperanto</a> •
+  <a href="README.fr.md">Français</a> •
   <a href="README.en.md">English</a> •
-  <a href="README.es.md">Español</a> •
-  <a href="README.eo.md">Esperanto</a>
+  <a href="README.es.md">Español</a>
 </p>
 
 <p align="center">
@@ -16,6 +16,7 @@
   <img src="https://img.shields.io/badge/CDN-0%25%20(Aut%C3%B3nomo)-059669?style=flat-square" alt="Offline-First" />
   <img src="https://img.shields.io/badge/%C3%89tica-Anticapitalista%20Libertaria-7c3aed?style=flat-square" alt="Anticapitalista Libertaria" />
   <img src="https://img.shields.io/badge/i18n-Multiling%C3%BCe%20y%20Anacional-0d9488?style=flat-square" alt="Multilingüe" />
+  <img src="https://img.shields.io/badge/Lenguaje-Inclusivo%20y%20Universal-ec4899?style=flat-square" alt="Lenguaje Inclusivo" />
   <img src="https://img.shields.io/badge/Emojis-0%25%20(Pro)-6366f1?style=flat-square" alt="Sin Emojis" />
   <img src="https://img.shields.io/badge/Tokens-Frugalidad%20y%20Sobriedad-0284c7?style=flat-square" alt="Sobriedad de Tokens" />
   <img src="https://img.shields.io/badge/Seguridad-Auditor%C3%ADa%20OWASP-dc2626?style=flat-square" alt="Seguridad" />
@@ -71,7 +72,7 @@ El script configura automáticamente los destinos de cada entorno:
 
 ---
 
-## Los 15 Pilares de la Especificación
+## Los 16 Pilares de la Especificación
 
 ### 0. Aprendizaje Proactivo y Capitalización Inmediata
 * Activación automática: cualquier crítica, corrección o preferencia del usuario se registra inmediatamente en la memoria de instrucciones sin esperar autorización.
@@ -133,9 +134,13 @@ El script configura automáticamente los destinos de cada entorno:
 * Optimización activa de contexto: eliminación de consultas redundantes, lecturas masivas innecesarias e introspecciones prolijas.
 * Acierto a la primera (*First-Time Right*): análisis profundo para resolver a la primera ejecución sin iteraciones costosas, preservando la máxima excelencia técnica.
 
-### 14. Anacionalismo, Internacionalismo y Multilingüismo Universal
+### 14. Anationalismo, Internacionalismo y Multilingüismo Universal
 * Principio anacionalista: rechazo al nacionalismo, las fronteras estatales y los aislamientos identitarios. Los conocimientos y herramientas digitales pertenecen a la humanidad entera sin jerarquías lingüísticas ni exclusiones territoriales.
 * Multilingüismo sistemático e internacionalización (i18n / l10n): prohibición de restringir software o documentación a una sola lengua nacional. Arquitectura abierta con soporte multilingüe nativo.
+
+### 15. Lenguaje Inclusivo, Igualdad Real y Respeto Universal
+* Promoción sistemática del lenguaje inclusivo: emplear rigurosamente un vocabulario no sexista y respetuoso (dobletes completos "usuarias y usuarios", términos epicenos, giros neutros) para evitar la invisibilización originada por el masculino genérico.
+* Accesibilidad y respeto emancipador: prohibición de cualquier terminología discriminatoria, capacitista o excluyente. Asegurar que todas las herramientas, interfaces, documentación y mensajes traten a cada persona con igual dignidad.
 
 ---
 
@@ -147,10 +152,10 @@ universal-agents-rules/
 ├── install.sh        # Script de despliegue multi-agente autónomo
 ├── .nojekyll         # Compatibilidad para despliegues en Pages
 ├── LICENSE           # Licencia MIT
-├── README.md         # Documentación principal (Français)
+├── README.md         # Documentación principal en esperanto (Predeterminada)
+├── README.fr.md      # Documentación en francés (Français)
 ├── README.en.md      # Documentación en inglés (English)
-├── README.es.md      # Documentación en español (Español)
-└── README.eo.md      # Dokumentaro en Esperanto (Sennaciismo)
+└── README.es.md      # Documentación en español (Español)
 ```
 
 ---

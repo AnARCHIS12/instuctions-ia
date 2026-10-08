@@ -1,42 +1,43 @@
-# Universal AGENTS.md
+# Universala AGENTS.md
 
-> La spécification universelle, émancipatrice et anticapitaliste pour agents IA de développement (Antigravity, Claude Code, OpenAI Codex, Cursor, Copilot, Windsurf, Aider).
+> Universala, emancipa kaj kontraŭkapitalisma specifo por artefarit-intelektaj programad-agentoj (Antigravity, Claude Code, OpenAI Codex, Cursor, Copilot, Windsurf, Aider).
 
 <p align="center">
-  <b>Languages:</b>
-  <a href="README.md">Français</a> •
+  <b>Lingvoj / Languages:</b>
+  <a href="README.md">Esperanto</a> •
+  <a href="README.fr.md">Français</a> •
   <a href="README.en.md">English</a> •
-  <a href="README.es.md">Español</a> •
-  <a href="README.eo.md">Esperanto</a>
+  <a href="README.es.md">Español</a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Standard-AGENTS.md-2563eb?style=flat-square" alt="Standard AGENTS.md" />
-  <img src="https://img.shields.io/badge/Compatibilit%C3%A9-Multi--Agent-10b981?style=flat-square" alt="Multi-Agent" />
-  <img src="https://img.shields.io/badge/CDN-0%25%20(Autonome)-059669?style=flat-square" alt="Offline-First" />
-  <img src="https://img.shields.io/badge/%C3%89thique-Anticapitaliste%20Libertaire-7c3aed?style=flat-square" alt="Anticapitaliste Libertaire" />
-  <img src="https://img.shields.io/badge/i18n-Multilingue%20%26%20Anational-0d9488?style=flat-square" alt="Multilingual" />
-  <img src="https://img.shields.io/badge/%C3%89mojis-0%25%20(Pro)-6366f1?style=flat-square" alt="Zero Emoji" />
-  <img src="https://img.shields.io/badge/Tokens-Frugalit%C3%A9%20%26%20Sobri%C3%A9t%C3%A9-0284c7?style=flat-square" alt="Token Sobriety" />
-  <img src="https://img.shields.io/badge/S%C3%A9curit%C3%A9-OWASP%20Audit-dc2626?style=flat-square" alt="Security" />
-  <img src="https://img.shields.io/badge/Licence-MIT-64748b?style=flat-square" alt="License" />
+  <img src="https://img.shields.io/badge/Normo-AGENTS.md-2563eb?style=flat-square" alt="Normo AGENTS.md" />
+  <img src="https://img.shields.io/badge/Kongrueco-Plur--Agenta-10b981?style=flat-square" alt="Plur-Agenta" />
+  <img src="https://img.shields.io/badge/CDN-0%25%20(Aŭtonoma)-059669?style=flat-square" alt="Sen-CDN" />
+  <img src="https://img.shields.io/badge/Etiko-Liberecana%20Kontraŭkapitalismo-7c3aed?style=flat-square" alt="Liberecana" />
+  <img src="https://img.shields.io/badge/i18n-Plurlingva%20kaj%20Sennacia-0d9488?style=flat-square" alt="Sennaciismo" />
+  <img src="https://img.shields.io/badge/Lingvo-Inkluziva%20kaj%20Egaleca-ec4899?style=flat-square" alt="Inkluziva Lingvo" />
+  <img src="https://img.shields.io/badge/Emoji-0%25%20(Profesia)-6366f1?style=flat-square" alt="Sen-Emoji" />
+  <img src="https://img.shields.io/badge/Tokenoj-Ŝparemo%20kaj%20Frugaleco-0284c7?style=flat-square" alt="Token-Ŝparo" />
+  <img src="https://img.shields.io/badge/Sekureco-OWASP%20Kontrolo-dc2626?style=flat-square" alt="Sekureco" />
+  <img src="https://img.shields.io/badge/Permesilo-MIT-64748b?style=flat-square" alt="Permesilo" />
 </p>
 
 ---
 
-## Vue d'Ensemble
+## Ĝenerala Superrigardo
 
-En 2026, la multiplication des outils de code assisté par IA (Claude Code, OpenAI Codex, Cursor, Gemini Antigravity, GitHub Copilot, Windsurf, Aider) a créé une dispersion critique des configurations (`.cursorrules`, `CLAUDE.md`, `CODEX.md`, `.windsurfrules`, etc.).
+En 2026, la multobliĝo de AI-helpataj programadaj iloj (Claude Code, OpenAI Codex, Cursor, Gemini Antigravity, GitHub Copilot, Windsurf, Aider) kaŭzis grandan fragmentiĝon de agordaj dosieroj (`.cursorrules`, `CLAUDE.md`, `CODEX.md`, `.windsurfrules`, ktp.).
 
-**Universal AGENTS.md** résout ce problème en établissant une **source unique de vérité** (*Single Source of Truth*). Ce référentiel impose aux modèles de langage une discipline d'ingénierie stricte de niveau **Staff Engineer**, élimine les régressions coûteuses en tokens et garantit un code libre, décentralisé, sécurisé, émancipateur et exempt de dettes techniques ou d'enclosures propriétaires.
+**Universala AGENTS.md** solvas ĉi tiun problemon per starigo de **Unuopa Fonto de Vero** (*Single Source of Truth*). Ĝi trudas al lingvomodeloj rigoran inĝenieran disciplinon de nivelo **Staff Engineer**, forigas multekostajn ĵetonajn regresojn kaj certigas liberan, malcentralizitan, sekuran kaj emancipan fontkodon sen proprietaj baroj.
 
 ---
 
-## Installation en 1 Commande
+## Instalado per 1 Komando
 
-### Déploiement Universel Automatisé
+### Aŭtomata Universala Deplojo
 
-Clonez le dépôt et exécutez le script d'installation :
+Kloni la deponejon kaj ruli la instalan skripton:
 
 ```bash
 git clone https://github.com/AnARCHIS12/instuctions-ia.git
@@ -45,127 +46,131 @@ chmod +x install.sh
 ./install.sh --all -y
 ```
 
-### Options Disponibles
+### Haveblaj Opcioj
 
 ```bash
-./install.sh --global    # Déploie dans les configurations globales de l'utilisateur
-./install.sh --local     # Déploie dans le répertoire / dépôt courant
-./install.sh --all       # Déploie globalement et localement (par défaut)
+./install.sh --global    # Instalas en la ĝeneralajn agordajn dosierujojn de la uzanto
+./install.sh --local     # Instalas en la nunan deponejon / dosierujon
+./install.sh --all       # Instalas kaj globale kaj loke (defaŭlto)
 ```
 
 ---
 
-## Matrice de Compatibilité Multi-Agents
+## Kongrueca Matrico por Pluraj Agentoj
 
-Le script d'installation configure automatiquement chaque agent vers la spécification :
+La instalilo aŭtomate ligas ĉiun agenton al la unuigita specifo:
 
-| Agent / Outil IA | Cible Globale | Cible Projet Local |
+| AI Agento / Ilo | Ĉiea Celo (Global) | Loka Projekta Celo |
 |---|---|---|
 | **Google Antigravity / Gemini CLI** | `~/.gemini/config/AGENTS.md` | `./AGENTS.md` |
 | **Claude Code (Anthropic)** | `~/.claude/CLAUDE.md` | `./CLAUDE.md` |
 | **OpenAI Codex / CLI** | `~/.codex/instructions.md` | `./CODEX.md` / `.codex/instructions.md` |
 | **Cursor IDE** | `~/.cursor/rules/global.mdc` | `.cursorrules` / `.cursor/rules/` |
 | **Windsurf / Cascade** | `~/.codeium/windsurf/memories/global_rules.md` | `.windsurfrules` |
-| **GitHub Copilot** | *Non supporté en global* | `.github/copilot-instructions.md` |
+| **GitHub Copilot** | *Ne subtenata ĉiee* | `.github/copilot-instructions.md` |
 | **Aider** | `~/.aider.conventions.md` | `CONVENTIONS.md` |
 
 ---
 
-## Les 15 Piliers de la Spécification
+## La 16 Kolonoj de la Specifo
 
-### 0. Réflexe d'Apprentissage & Capitalisation Immédiate
-* Déclenchement automatique : toute critique, correction ou préférence émise par l'utilisateur est immédiatement enregistrée dans le fichier d'instructions de manière proactive.
-* Zéro régression : aucune répétition des erreurs passées, zéro gaspillage de tokens ou de temps.
+### 0. Proaktiva Lernado kaj Tuja Kapitaligo
+* Aŭtomata ekigo: ĉiu riproĉo, korekto aŭ prefero de la uzanto estas tuj registrita en la instrukcian memoron sen atendi permeson.
+* Nula regreso: neniu ripeto de pasintaj eraroj, nula malŝparo de tempo, mono aŭ ĵetonoj.
 
-### 1. Gestion des Forges Libres & Fédérées (Codeberg / Forgejo / Gitea)
-* Utilisation directe des jetons d'accès disponibles dans l'environnement (`$CODEBERG_TOKEN`, `$FORGEJO_TOKEN`, `~/.env`). Interdiction formelle de redemander un jeton déjà configuré.
+### 1. Administrado de Liberaj kaj Federaciigitaj Forĝejoj (Codeberg / Forgejo / Gitea)
+* Rekta uzo de sistemaj ĵetonoj (`$CODEBERG_TOKEN`, `$FORGEJO_TOKEN`, `~/.env`). Neniam redemandi jam agorditajn atestilojn.
 
-### 2. Zéro CDN Externe & Indépendance Technologique
-* Proscription stricte des CDN tiers (cdnjs, Cloudflare, Google Fonts, jsdelivr, unpkg).
-* Composants 100% autonomes, hors-ligne (*offline-first*), polices système et SVG vectoriels natifs inline.
+### 2. Nul Eksteraj CDN-oj kaj Teknologia Aŭtonomio
+* Absoluta malpermeso de eksteraj CDN-oj (cdnjs, Cloudflare, Google Fonts, jsdelivr, unpkg).
+* 100% aŭtonomaj, senretaj (*offline-first*) eroj, sistemaj tiparoj kaj enliniaj vektoraj SVG-oj.
 
-### 3. Standards CLI Haut de Gamme
-* Style épuré aligné sur les meilleurs outils contemporains (Bun, Vercel, Stripe).
-* Absence totale d'émojis, typographie sobre, scan actif des ports hôtes pour éviter tout conflit de ressource.
+### 3. Altnivelaj Terminalaj kaj CLI-Normoj
+* Minimumisma kaj sobra stilo (simila al Bun, Vercel, Stripe).
+* Absoluta forigo de bildosignoj (emojioj), sobriaj unikodaj simboloj (`✓`, `✕`, `›`, `•`) kaj aktiva kontrolo de liberaj retpordoj.
 
-### 4. Déploiement Statique pour Pages
-* Inclusion systématique du fichier `.nojekyll` pour garantir le service direct des assets sur GitHub Pages, Codeberg Pages et Forgejo Pages.
+### 4. Senmova Deplojo por Retpaĝoj (Pages)
+* Deviga `.nojekyll` dosiero ĉe la radiko por pura funkciado en GitHub, Codeberg kaj Forgejo Pages.
 
-### 5. Piles Technologiques Contemporaines
-* Rejet des versions obsolètes ou dépréciées (ex. PHP 8.3+, MariaDB 10.11+ LTS, Debian Bookworm).
-* Activation des optimisations de production (`opcache`, `intl`).
+### 5. Nuntempaj Teknologioj kaj Ujoj (Containers)
+* Malakcepto de malaktualaj versioj (ekz. PHP 8.3+, MariaDB 10.11+ LTS, Debian Bookworm).
+* Ĉiam aktivigi produktajn optimumigojn (`opcache`, `intl`).
 
-### 6. Rigueur Technique & Documentation Officielle
-* Interdiction de coder à l'aveugle ou d'extrapoler sur une technologie non maîtrisée.
-* Consultation systématique des documentations officielles, dépôts sources et standards RFC.
+### 6. Teknika Rigoreco kaj Oficiala Dokumentaro
+* Malpermesita blinda konjekto aŭ senbaza kodo.
+* Deviga legado de oficialaj fontoj, originaj deponejoj kaj RFC-normoj.
 
-### 7. Interdiction Absolue des Émojis & Audits de Sécurité Quotidiens
-* Zéro émoji dans le code, les scripts, les documentations et les réponses.
-* Audits de sécurité approfondis quotidiens (OWASP Top 10, CWE, SAIF, durcissement réseau et conteneurs).
+### 7. Absoluta Malpermeso de Emojioj kaj Ĉiutagaj Profundaj Sekurec-Kontroloj
+* Nul emojioj en fontkodo, komandlinio, dokumentoj, enmetoj (commits) kaj respondoj.
+* Ĉiutagaj profundaj sekurecaj revizioj laŭ OWASP Top 10, CWE, SAIF kaj solidigo de ujoj.
 
-### 8. Standards d'Excellence Technique (Staff Engineer)
-* Typage strict et analyse statique sans faille (`declare(strict_types=1);`, `strict: true` en TS, type hints).
-* Tolérance zéro pour les erreurs silencieuses (jamais de `catch` vides, logs contextuels).
-* Architecture modulaire KISS et élimination de l'over-engineering.
-* Vérification avant remise (*Verification First*) : tout code doit être validé ou testé avant livraison.
-* Optimisation des performances : indexation SQL, élimination des requêtes N+1.
-* Commits conventionnels et atomiques (`feat:`, `fix:`, `refactor:`).
+### 8. Staff Engineer Teknikaj Normoj
+* Strikta tipsekureco (`declare(strict_types=1);`, strikta reĝimo en TypeScript, kompletaj tipindikoj).
+* Nula silenta fiasko: neniam malplenaj `catch` blokoj, kuntekstaj protokoloj kaj pura erartransdono.
+* KISS modula arkitekturo, nula senutila pezo.
+* Antaŭkontrolo: ĉiu solvo devas esti testita kaj kontrolita antaŭ livero.
+* Optimumigo de rendimento: eksplicitaj SQL-indeksoj, forigo de N+1 informpetoj.
+* Normigitaj atomaj enmetoj (`feat:`, `fix:`, `refactor:`).
 
-### 9. Garde-fous de Périmètre & Blast Radius
-* Interdiction formelle de tronquer du code ou d'insérer des commentaires paresseux (`// ... rest of code`).
-* Modification strictement confinée au périmètre de la demande.
-* Protection absolue contre l'exécution de commandes destructrices irréversibles.
+### 9. Limigo de Trafkampo (Blast Radius)
+* Kontraŭmaldiligenta kodo: neniam trunkigi funkcian kodon per facilanimaj komentoj.
+* Modifoj strikte limigitaj al la petita celo.
+* Deviga konfirmo antaŭ ajna neinversigebla ordono (`rm -rf`, forigo de volumo, datumbazo).
 
-### 10. Protocole d'Exécution Autonome
-* Inspection préalable obligatoire avant écriture de code (*Inspect First*).
-* Concision chirurgicale : zéro verbiage, zéro flagornerie, réponses denses et structurées.
+### 10. Aŭtonoma Livera Protokolo
+* Rigardu antaŭe: ĉiam legu la verajn dosierojn antaŭ fari ŝanĝojn.
+* Preciza kaj lakona komunikado sen falsa flato.
 
-### 11. Présentation d'Élite des Projets
-* Obligation d'accompagner chaque projet d'un `README.md` remarquable : badges vectoriels, installation en une commande, tables de compatibilité, guides d'utilisation et licence libre.
+### 11. Elstara Prezentado de Projektoj
+* Deviga `README.md` de plej alta kvalito: vektoraj insignoj, rapida startigo per unu komando, tabeloj de kongrueco kaj libera permesilo.
 
-### 12. Éthique Anticapitaliste Libertaire, Communs Numériques & Bannissement du Vocabulaire Nationaliste
-* Proscription formelle du vocabulaire nationaliste ou étatiste : interdiction d'employer des termes tels que "souverain", "souveraineté", "patrie", "intérêt national". Remplacement systématique par l'autonomie collective et individuelle, l'autogestion, l'émancipation et les communs numériques.
-* Ligne philosophique anticapitaliste et libertaire : émancipation sociale, horizontalité, réappropriation collective des outils numériques, refus absolu du capitalisme de surveillance, de la logique marchande de profit et des monopoles de la Big Tech.
-* Défense inconditionnelle des biens communs et rejet des logiciels propriétaires : proscription des logiciels et services propriétaires fermés. Priorité absolue aux logiciels libres copyleft, aux protocoles ouverts et aux architectures décentralisées, fédérées, pair-à-pair (P2P) et auto-hébergées.
+### 12. Liberecana Kontraŭkapitalisma Etiko, Ciferecaj Komunaĵoj kaj Forigo de Naciisma Vortotrezoro
+* Absoluta forigo de naciismaj aŭ ŝtataj terminoj ("suverena", "suvereneco", "patrio", "nacia intereso"). Sisteme anstataŭigitaj per kolektiva kaj individua aŭtonomio, memadministrado, emancipiĝo kaj ciferecaj komunaĵoj.
+* Liberecana kontraŭkapitalisma filozofio: socia emancipiĝo, horizontaleco, kolektiva reapropriigo de komputaj iloj, kaj totala rifuzo de kontrolkapitalismo kaj monopoloj de grandaj teknologiaj korporacioj.
+* Senkondiĉa defendo de la komunaĵoj: neniu proprieta programaro, neniu kateniĝo al provizanto. Absoluta prioritato al liberaj kopirajtaj permesiloj (copyleft), malfermitaj protokoloj kaj memgastigitaj samtavolaj (P2P) retoj.
 
-### 13. Sobriété Économique, Optimisation des Tokens & Frugalité Émancipatrice
-* Accessibilité économique : conscience permanente du coût réel des requêtes et des tokens pour les personnes utilisatrices ; zéro gaspillage de ressources.
-* Optimisation active du contexte : élimination des requêtes redondantes, des introspections bavardes et des lectures massives de fichiers superflues.
-* Équilibre d'excellence (Frugalité & Qualité Maximale) : aucune baisse de qualité tolérée ; application du principe de justesse immédiate (*First-Time Right*) pour réussir dès la première passe et éviter les itérations coûteuses.
+### 13. Ekonomia Ŝparemo, Ĵetona Optimumigo kaj Emancipa Frugaleco
+* Ekonomia alirebleco: konstanta konscio pri la financa kosto de ĵetonoj kaj servaj petoj por la uzantoj; nula malŝparo de resursoj.
+* Aktiva kunteksta optimumigo: forigo de superfluaj informpetoj, parolemaj memanalizoj kaj masivaj dosierelŝutoj.
+* Ĝusteco el la unua fojo (*First-Time Right*): profunda analizo por sukcesi tuj sen multekostaj ripetoj, konservante plej altan kodkvaliton.
 
-### 14. Anationalisme, Internationalisme & Multilinguisme Universel
-* Principe d'anationalisme : refus catégorique de l'idéologie des nations, des frontières étatiques et des replis identitaires. Les communs numériques appartiennent à l'humanité entière sans hiérarchie linguistique ni privilège géographique.
-* Multilinguisme systématique & conception ouverte (i18n / l10n) : interdiction formelle de confiner un logiciel ou une documentation à une seule langue nationale. Toujours concevoir avec un support multilingue natif et fournir les documentations en langues multiples.
+### 14. Sennaciismo, Internaciismo kaj Universala Plurlingveco
+* Sennaciisma principo: kategorio rifuzo de naciisma ideologio, ŝtataj limoj kaj identecaj baroj. La ciferecaj komunaĵoj kaj teknikaj scioj apartenas al la tuta homaro sen lingvaj hierarkioj nek geografiaj privilegioj.
+* Sistema plurlingveco kaj malferma fasonado (i18n / l10n): malpermesite enfermi programaron aŭ dokumentaron en nur unu nacia lingvo. Ĉiam krei ilojn kun denaska plurlingva subteno kaj provizi dokumentarojn en pluraj lingvoj.
+
+### 15. Inkluziva Lingvo, Reala Egaleco kaj Universala Respekto
+* Sistema antaŭenigo de inkluziva lingvo: rigore uzi nenseksisman kaj respekteman lingvaĵon por eviti nevidebligon kaŭzatan de senkritika vira formo.
+* Emancipa alirebleco kaj bonvolemo: absoluta malpermeso de diskriminacia, kapablisma aŭ ekskluda vortotrezoro. Certigi, ke ĉiuj iloj, fasadoj, dokumentoj kaj erarmesaĝoj traktas ĉiujn homojn egalece kaj digne.
 
 ---
 
-## Structure du Dépôt
+## Deponeja Strukturo
 
 ```text
 universal-agents-rules/
-├── AGENTS.md         # Fichier maître des règles universelles
-├── install.sh        # Script de déploiement multi-agents autonome
-├── .nojekyll         # Compatibilité Pages statiques
-├── LICENSE           # Licence MIT
-├── README.md         # Documentation principale (Français)
-├── README.en.md      # Documentation en anglais (English)
-├── README.es.md      # Documentation en espagnol (Español)
-└── README.eo.md      # Dokumentaro en Esperanto (Sennaciismo)
+├── AGENTS.md         # Ĉefdosiero de universalaj reguloj
+├── install.sh        # Aŭtonoma plur-agenta instala skripto
+├── .nojekyll         # Kongrueco kun statikaj retpaĝoj
+├── LICENSE           # Permesilo MIT
+├── README.md         # Ĉefa dokumentaro en Esperanto (Defaŭlta)
+├── README.fr.md      # Dokumentaro en la franca (Français)
+├── README.en.md      # Dokumentaro en la angla (English)
+└── README.es.md      # Dokumentaro en la hispana (Español)
 ```
 
 ---
 
-## Contribution
+## Kontribuado
 
-Les contributions améliorant la rigueur, l'autonomie des communs numériques ou la compatibilité avec de nouveaux agents IA sont les bienvenues via Pull Request / Merge Request.
+Kontribuoj celantaj plibonigi teknikan rigorecon, la aŭtonomion de ciferecaj komunaĵoj aŭ kongruecon kun novaj agentoj estas bonvenaj per Pull Request / Merge Request.
 
-1. Forker le projet.
-2. Créer une branche dédiée (`git checkout -b feature/nouvelle-regle`).
-3. Appliquer les modifications dans `AGENTS.md` en respectant l'absence d'émojis et le standard de typage.
-4. Soumettre la Pull Request.
+1. Forku la projekton.
+2. Kreu dediĉitan branĉon (`git checkout -b funkcio/nova-regulo`).
+3. Apliku ŝanĝojn en `AGENTS.md` respektante la malpermeson de emojioj kaj striktan tipadon.
+4. Sendu vian Pull Request.
 
 ---
 
-## Licence
+## Permesilo
 
-Ce projet est distribué sous licence [MIT](LICENSE). Libre de réutilisation, d'intégration et de modification.
+Distribuata sub la permesilo [MIT](LICENSE). Libera por reuzo, integrado kaj modifado fare de la tutmonda komunumo.
